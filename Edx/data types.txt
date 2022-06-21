@@ -1,0 +1,6 @@
+Categorical data are variables that are defined by a small number of groups.
+- Ordinal categorical data have an inherent order to the categories (mild/medium/hot, for example).
+- Non-ordinal categorical data have no order to the categories.
+Numerical data take a variety of numeric values.
+- Continuous variables can take any value.
+- Discrete variables are limited to sets of specific values.
