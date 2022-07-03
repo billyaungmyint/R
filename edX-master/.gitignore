@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+9-Capstone/kepler-labelled-time-series-data/exoTrain.csv
+9-Capstone/kepler-labelled-time-series-data/exoTest.csv
+9-Capstone/MovieLensProject/ml-10M100K/movies.dat
+9-Capstone/MovieLensProject/ml-10M100K/ratings.dat
+9-Capstone/MovieLensProject/data.RData
+*.DS_Store
+*.html
