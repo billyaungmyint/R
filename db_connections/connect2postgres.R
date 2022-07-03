@@ -5,11 +5,11 @@ library(DBI)
 start_time <- Sys.time()
 
 # Connect to a specific postgres database i.e. Heroku
-con <- dbConnect(RPostgres::Postgres(),dbname = 'dev', 
-                 host = '192.168.1.75', # i.e. 'ec2-54-83-201-96.compute-1.amazonaws.com'
-                 port = 5432, # or any other port specified by your DBA
-                 user = 'dev',
-                 password = 'dev123')
+con <- dbConnect(RPostgres::Postgres(),dbname = '<dbname>', 
+                 host = '<ip>', # i.e. 'ec2-54-83-201-96.compute-1.amazonaws.com'
+                 port = port, # or any other port specified by your DBA
+                 user = 'user',
+                 password = 'pass')
 
 # dbListTables(con)
 # dbWriteTable(con, "mtcars", mtcars)
